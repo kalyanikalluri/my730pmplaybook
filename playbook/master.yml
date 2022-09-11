@@ -1,0 +1,8 @@
+--- # testing playbook
+- hosts: webservers
+  become: true
+
+
+  roles:
+    - testrole
+
